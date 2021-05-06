@@ -53,8 +53,6 @@ export default function Main() {
           Weather Finder
         </Typography>
         <WeatherSearch />
-        
-        <DateTime />
         { weatherData && <WeatherData />}
         { error && <Error error={error} /> }
         
